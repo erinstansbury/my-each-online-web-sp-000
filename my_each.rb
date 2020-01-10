@@ -1,3 +1,6 @@
-def my_each(collection) do |i| # put argument(s) here
-  puts i
+def my_each(array)
+  i = 0
+  while i <= array[array.length]
+    i += 1
+    puts i
 end
